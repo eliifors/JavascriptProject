@@ -1,0 +1,80 @@
+*
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.active
+{
+    visibility: hidden;
+}
+
+body
+{ 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}   
+
+
+.mainContainer
+{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+    width: 525px;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgb(172, 172, 193);
+    color: rgb(38, 122, 98);
+}
+
+.mainContainer img
+{
+    height: 450px;
+    width: 100%;
+}
+
+.videoContainer
+{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeIcon
+{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+}
+  
+
+video
+{
+    height: 600px;
+}
+
+.watchButton
+{
+    border: none;
+    padding: 10px 20px;
+    background-color:  rgb(38, 122, 98);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.watchButton:hover
+{
+    background-color: rgb(87, 47, 122);
+}
