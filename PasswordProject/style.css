@@ -1,0 +1,94 @@
+*
+{
+ box-sizing: border-box;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body
+{
+ margin: 0px;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #f1f1f1;
+}
+
+.passwordContainer
+{
+    width: 500px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    background-color: rgb(201, 147, 174);
+    
+}
+
+.inputContainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input
+{
+    font-size: 20px;
+    background: none;
+    border: none;
+    outline: none;
+
+}
+
+.fa-copy
+{
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.fa-copy:hover
+{
+    opacity: 1;
+}
+
+.passwordButton
+{
+    padding: 10px 30px;
+    font-size: 20px;
+    margin: 10px 0px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.passwordButton:hover
+{
+    background-color: red;
+}
+
+.alertContainer
+{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    background-color: lightgreen;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.active
+{
+    right: -300px;
+}
