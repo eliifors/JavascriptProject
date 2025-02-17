@@ -1,9 +1,10 @@
 * {
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   body {
-    background-color: blueviolet;
+    background-color: rgb(177, 121, 121);
     min-height: 100vh;
     margin: 0;
     display: flex;
